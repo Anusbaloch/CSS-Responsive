@@ -1,0 +1,141 @@
+body {
+    background-color: #0fe4e4;
+
+}
+
+.box {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.box h2 {
+    color: azure;
+    margin-left: 43px;
+    margin-top: 73px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+
+    .box {
+        background-color: rgb(238, 0, 0);
+
+    }
+
+    .box h2 {
+        color: rgb(161, 28, 194);
+
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: rgb(178, 221, 24);
+    }
+
+    .box {
+        background-color: rgb(206, 15, 95);
+
+    }
+
+    .box h2 {
+        color: rgb(153, 39, 24);
+
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    body {
+        background-color: rgb(28, 28, 51);
+
+    }
+
+    .box {
+        background-color: rgb(54, 179, 179);
+    }
+
+    .box h2 {
+        color: rgb(235, 0, 0);
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(162, 0, 177);
+
+    }
+
+    .box {
+        background-color: rgb(2, 16, 97);
+    }
+
+    .box h2 {
+        color: rgb(174, 194, 0);
+
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        background-color: rgb(26, 156, 8);
+    }
+
+    .box {
+        background-color: rgb(155, 61, 23);
+    }
+
+    .box h2 {
+        color: rgb(14, 230, 25);
+
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: rgb(12, 88, 2);
+    }
+
+    .box {
+        background-color: rgb(66, 66, 22);
+    }
+
+    .box h2 {
+        color: rgb(228, 112, 4);
+
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: rgb(116, 16, 62);
+    }
+
+    .box {
+        background-color: rgb(128, 11, 151);
+    }
+
+    .box h2 {
+        color: rgb(30, 19, 177);
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(27, 110, 103);
+    }
+
+    .box {
+        background-color: rgb(66, 136, 9);
+    }
+
+    .box h2 {
+        color: rgb(13, 172, 172);
+
+    }
+}
